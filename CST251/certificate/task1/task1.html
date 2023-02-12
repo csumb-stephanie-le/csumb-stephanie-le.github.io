@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>task1</title>
+   <link rel="stylesheet" href="styles.css"> 
+   <style>
+      h1{
+        color: #26619c;
+        }
+
+      #description{
+    font-size: 18px;
+        }
+
+      body{
+        background-image: url(https://i.pinimg.com/736x/20/d3/5f/20d35fc7ae52313f07a5c0ad166c1e51.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align:center;
+        font-family: Helvetica;
+        font-size: 20px;
+        color: #26619c;
+        }
+
+      .question{
+        font-weight: bold;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<h1 id="title">CSUMB Music Survey
+</h1>
+
+<p id="description">Please fill out this quick form to help us collect data on CSUMB students' music preferences. <br> Thank you again for participating in our survey!</p>
+
+<form id="survey-form">
+  <label id="name-label">Name:
+    <input type="text" id="name" placeholder="Enter your name" required>
+  </label>
+
+  <br>
+
+  <label id="email-label">Email:
+    <input type="email" id="email" placeholder="Enter your email address" required>
+  </label>
+
+  <br>
+
+  <label id="number-label">Age (optional):
+  <input type="number" id="number" placeholder="Age" min="0" max="100">
+  </label>
+
+  <p>
+    <legend class="question">What year are you in?<legend>
+  <select id="dropdown">
+    <option>Select One</option>
+    <option>Freshman</option>
+    <option>Sophomore</option>
+    <option>Junior</option>
+    <option>Senior</option>
+  </select>
+  </p>
+
+  <p>
+  <legend class="question">What genre of music do you normally listen to? (Check all that apply)</legend>
+    <label><input type="checkbox" name="genre" value="Pop">Pop
+    </label>
+    <label><input type="checkbox" name="genre" value="R&B">R&B
+    </label>
+    <label><input type="checkbox" name="genre" value="Country">Country
+    </label>
+    <label><input type="checkbox" name="genre" value="Rap">Hip-Hop/Rap
+    </label>
+    <label><input type="checkbox" name="genre" value="Alternative">Alternative
+    </label>
+    <label><input type="checkbox" name="genre" value="Rock">Rock
+    </label>
+    <label><input type="checkbox" name="genre" value="Other">Other
+    </label>
+
+    <legend>If <em>Other</em>, please specify:
+    </legend>
+    <input type="text" name="comment">
+  </p>
+
+  <p>
+  <legend class="question">What music streaming service do you use?
+  </legend>
+    <label><input type="radio" name="service" value="Spotify">Spotify</label>
+    <label><input type="radio" name="service" value="Apple">Apple Music</label>
+    <label><input type="radio" name="service" value="YouTube">YouTube Music</label>
+    <label><input type="radio" name="service" value="SoundCloud">SoundCloud</label>
+    <label><input type="radio" name="service" value="Amazon">Amazon Music</label>
+    <label><input type="radio" name="service" value="other">Other</label>
+
+  <legend>If <em>Other</em>, please specify:
+  </legend>
+    <input type="text" name="comment">
+  </p>
+
+  <legend class="question">What is your favorite song at the moment?
+  </legend>
+  <textarea name="response" cols="50" rows="3" placeholder="e.g. Ghost in the Machine - SZA ft. Phoebe Bridgers"></textarea>
+
+  <p>
+  <button id="submit">Submit</button>
+  </p>
+
+</form>
+
+</body>
+</html>
