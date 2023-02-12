@@ -15,6 +15,13 @@
     color: #f85084;
         }
 
+      main{
+      border-style:solid;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 20px 100px 20px 100px;
+      }
+
       body{
         background-image: url(https://preview.redd.it/qkiu86oypn571.png?width=640&crop=smart&auto=webp&s=1c703c6ca8802020548e83b187714f5418db36b6);
         background-repeat: no-repeat;
@@ -40,6 +47,8 @@
 </h1>
 
 <p id="description">Please fill out this quick form to help us collect data on CSUMB students' music preferences. <br> Thank you again for participating in our survey!</p>
+
+<main>
 
 <form id="survey-form">
   <label id="name-label">Name:
@@ -87,7 +96,7 @@
     <h5> If <em>Other</em>, please specify:</h5>
     <input type="text" name="comment">
   
-  <p class="question">What music streaming service do you use?</p>
+    <p class="question">What music streaming service do you use?</p>
     <label><input type="radio" name="service" value="Spotify">Spotify</label>
     <label><input type="radio" name="service" value="Apple">Apple Music</label>
     <label><input type="radio" name="service" value="YouTube">YouTube Music</label>
@@ -99,12 +108,14 @@
       <input type="text" name="comment">
   
   
-  <p class="question">What is your favorite song at the moment?</p>
-    <textarea name="response" cols="50" rows="3" placeholder="e.g. Ghost in the Machine - SZA ft. Phoebe Bridgers"></textarea>
+    <p class="question">What is your favorite song at the moment?</p>
+      <textarea name="response" cols="50" rows="3" placeholder="e.g. Ghost in the Machine - SZA ft. Phoebe Bridgers"></textarea>
 
-  <p>
-    <button id="submit">Submit</button>
-  </p>
+    <p>
+      <button id="submit">Submit</button>
+    </p>
+
+</main>
 
 </form>
 
