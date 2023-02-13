@@ -24,11 +24,41 @@
         color: #f96995;
         }
 
+      #name{
+       font-size: 20px;
+      }
+     
+      #email{
+       font-size: 20px;
+      }
+     
+      #number{
+       font-size: 20px;
+      }
+     
+      #dropdown{
+       font-size: 20px;
+      }
+     
+      #comment{
+       font-size: 20px;
+      }
+     
+      #response{
+       font-size: 20px;
+      }
+
       .question{
         text-align: center;
         font-weight: bold;
         color: #f85084;
         }
+
+      #submit{
+       font-size: 20px;
+       background-color: #f85084;
+       color: white;
+      }
 
     </style>
 
@@ -85,7 +115,7 @@
   
 
     <div> If <em>Other</em>, please specify:
-    <input type="text" name="comment"></div>
+    <input type="text" name="comment" id="comment"></div>
   
     <p class="question">What music streaming service do you use?</p>
     <label><input type="radio" name="service" value="Spotify">Spotify</label>
@@ -96,11 +126,11 @@
     <label><input type="radio" name="service" value="other">Other</label>
 
     <div> If <em>Other</em>, please specify:
-      <input type="text" name="comment"></div>
+      <input type="text" name="comment" id="comment"></div>
   
   
     <p class="question">What is your favorite song at the moment?</p>
-      <textarea name="response" cols="50" rows="3" placeholder="e.g. Ghost in the Machine - SZA ft. Phoebe Bridgers"></textarea>
+      <textarea name="response" id="response" cols="50" rows="3" placeholder="e.g. Ghost in the Machine - SZA ft. Phoebe Bridgers"></textarea>
 
     <p>
       <button id="submit">Submit</button>
