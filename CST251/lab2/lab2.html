@@ -4,26 +4,8 @@
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width">
    <title> Lab 2 </title>
+   <link href="css/styles.css" rel="stylesheet">
 </head>
-
-<style>
-   h1{
-      color: blue;
-      border: 7px solid black;
-      border-radius: 20px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      margin-left: 20px;
-      margin-top: 50px;
-      margin-bottom: 30px;
-      border-radius: 30px;
-   }
-
-   img{
-      border-radius: 30px;
-   }
-
-   </style>
 
 <body>
 
@@ -34,39 +16,40 @@
    </header>
 
    <main>
+
       <h2> Dog Photos </h2>
 
-   <p>
-   Click here to view more <a href="https://csumb-stephanie-le.github.io/MoreDogPhotos.html"> dog photos</a>.
-   </p>
+      <p>
+      Click here to view more <a href="https://csumb-stephanie-le.github.io/MoreDogPhotos.html"> dog photos</a>.
+      </p>
 
-   <figure>
-   <img width="300" src="https://cdn.shopify.com/s/files/1/0051/2507/9128/articles/the-maltipoo-what-travel-accessories-to-take-besides-your-dog-431620_1200x1200.jpg?v=1637252275">
-   </figure>
+      <figure>
+         <img width="300" src="https://cdn.shopify.com/s/files/1/0051/2507/9128/articles/the-maltipoo-what-travel-accessories-to-take-besides-your-dog-431620_1200x1200.jpg?v=1637252275" alt="Photo of a dog sitting in grass">
+      </figure>
 
-   <h2> Dog List </h2>
+      <h2> Dog List </h2>
 
-   <h3> Things dogs love: </h3>
-      <ul> <li>treats</li>
-         <li>squeaky toys</li>
-         <li>walks</li>
-      </ul>
+      <h3> Things dogs love: </h3>
+         <ul> <li>treats</li>
+            <li>squeaky toys</li>
+            <li>walks</li>
+         </ul>
 
-   <figure>
-   <img width="300" src="https://csumb-stephanie-le.github.io/dogswalking.jpg">
-   <figcaption>Dogs <em>love</em> walks.
-   </figure>
+      <figure>
+         <img width="300" src="https://csumb-stephanie-le.github.io/dogswalking.jpg" alt="Photo of two dogs on a walk">
+         <figcaption>Dogs <em>love</em> walks.
+      </figure>
 
-   <h3> 3 things dogs dislike: </h3>
-      <ol><li>loud noises</li>
-         <li>strong scents</li>
-         <li>being home alone for a long period of time</li>
-      </ol>
+      <h3> 3 things dogs dislike: </h3>
+         <ol><li>loud noises</li>
+            <li>strong scents</li>
+            <li>being home alone for a long period of time</li>
+         </ol>
 
-   <figure>
-      <img width="500" src="https://www.cesarsway.com/wp-content/uploads/2015/10/Dealing-with-dog-separation-anxiety_0.jpg"/>
-      <figcaption> Dogs <strong>don't like</strong> being home alone.
-   </figure>
+      <figure>
+         <img width="500" src="https://www.cesarsway.com/wp-content/uploads/2015/10/Dealing-with-dog-separation-anxiety_0.jpg" alt="Photo of a sad dog by the front door">
+         <figcaption> Dogs <strong>don't like</strong> being home alone.</figcaption>
+      </figure>
 
    <form>
 
@@ -97,17 +80,20 @@
 
       </fieldset>
    
-      </main>
-
       <br>
 
-      <footer>
-         <label><input type="text" name="URL" required placeholder="Dog photo URL"></label>
-         <button>Submit</button>
-
-      </footer>
+      <label><input type="text" name="URL" id="url" required placeholder="Dog photo URL"></label>
+         <button id="submit">Submit</button>
 
    </form>
+
+   </main>
+
+      <footer>
+
+         <p>Le 2023</p>
+
+      </footer>
 
 </body>
 
