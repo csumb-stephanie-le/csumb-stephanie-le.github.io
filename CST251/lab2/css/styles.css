@@ -1,0 +1,73 @@
+h1{
+      font-size:4vw;
+      text-align: center;
+      color: rgb(152, 118, 84);
+      background-color: white;
+      border: 5px solid rgb(152, 118, 84);
+      border-radius: 20px;
+      padding: 20px;
+      margin: 50px;
+}
+
+h2{
+   color: white;
+}
+
+h3{
+   color: rgb(64, 49, 34);
+}
+
+a{
+   color: white;
+}
+
+em{
+   color: white;
+}
+
+strong{
+   color: white;
+}
+
+body{
+   font-family: Helvetica;
+   background-image: url("https://img.freepik.com/premium-vector/cute-cartoon-dog-faces-with-bones-seamless-pattern-wallpaper_40564-77.jpg?w=2000");
+   background-size: cover;
+}
+
+main{
+   background-color: rgba(152, 118, 84, .9);
+   padding: 20px;
+   margin: 50px;
+   border-radius: 20px;
+}
+
+legend{
+   color: rgb(64, 49, 34);
+}
+
+label{
+   color: white;
+}
+
+img{
+      border: 5px solid white;
+      border-radius: 20px;
+      max-width: 100%;
+      height: auto;
+}
+
+#url{
+   font-size: 15px;
+}
+
+#submit{
+      color: white;
+      background-color: rgb(64, 49, 34);
+      font-size: 15px;
+}
+
+footer{
+   text-align: center;
+   color: rgb(152, 118, 84);
+}
