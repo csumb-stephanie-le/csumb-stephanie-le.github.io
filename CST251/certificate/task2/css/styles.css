@@ -1,0 +1,74 @@
+body {
+  padding: 20px 0;
+}
+
+main {
+  font-family: Sans-serif;
+  background-color: #EEEEEE;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+#title {
+  text-align: center;
+  font-size: 40px;
+}
+
+#date {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 20px 0;
+}
+
+#img-div {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  margin: 0;
+}
+
+#img-caption {
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#about {
+  text-align: center;
+  padding: 10px;
+}
+
+#aboutcaption {
+  display: block;
+  margin: 0 50px;
+}
+
+#tribute-info {
+  display: block;
+  padding: 0 100px;
+  margin: 0 100px;
+}
+
+#timeline {
+  text-align: center;
+}
+
+#tribute-quote {
+  font-style: italic;
+  text-align: center;
+  padding: 25px;
+}
+
+#link {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
