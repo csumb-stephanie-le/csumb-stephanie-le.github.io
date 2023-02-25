@@ -61,6 +61,10 @@ main {
   text-align: center;
 }
 
+li {
+  margin: 20px 0;
+}
+
 #tribute-quote {
   font-style: italic;
   text-align: center;
