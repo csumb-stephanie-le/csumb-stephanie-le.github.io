@@ -42,6 +42,7 @@ main {
 }
 
 #about {
+  font-size: 20px;
   text-align: center;
   padding: 10px;
 }
@@ -58,6 +59,7 @@ main {
 }
 
 #timeline {
+  font-size: 20px;
   text-align: center;
 }
 
